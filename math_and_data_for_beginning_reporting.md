@@ -14,10 +14,20 @@ Contained in this repository are the datasets used to illustrate the concepts. T
 
 ##Introduction##
 
+#####Bad at math is a lie#####
+
+Let me guess: There's a not-insignificant part of you that's pretty happy to be in journalism school because the math requirements are pretty minimal. Have you ever said, out loud, "I can't do math, I'm a journalism major!" Have you ever thought "It's okay, I'm bad at math." Have you been bad at math your whole life?
+
+First, you're not alone.
+
+Second, you're living a lie.
+
+    More here later.
 
 
-* How high school algebra won a Pulitzer Prize
+#####How high school algebra won a Pulitzer Prize#####
 
+    How the Sun Sentinel used d=rt to win journalism's big prize
 
 ##The basics of the basics##
 
@@ -55,6 +65,8 @@ What that means is when you look at a mathematical formula, you do the calculati
 ##Mean##
 
 #####The basics#####
+
+
 
 #####How to calculate a mean#####
 
