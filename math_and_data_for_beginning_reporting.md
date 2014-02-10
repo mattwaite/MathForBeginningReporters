@@ -18,7 +18,7 @@ This module is designed to solve a particular problem: How do you get basic data
 * How to apply those basic math concepts to a spreadsheet of data.
 * How to turn basic math + a spreadsheet of data into a story idea.
 
-Contained in this repository are the datasets used to illustrate the concepts. They are kept here in .csv format, so you can use Excel, OpenOffice or Google Spreadsheets to do the same analysis. The spreadsheet formulas and concepts will work on any of those three software platforms.
+Contained in this repository are the datasets used to illustrate the concepts. They are kept here in .csv format, so you can use Excel or Google Spreadsheets to do the same analysis. The spreadsheet formulas and concepts will work on any of those three software platforms.
 
 ##Introduction##
 
@@ -70,7 +70,6 @@ The story was a stunning find, and the newspaper documented case after case of p
 
 All with simple high school algebra.
 
-
 ##The basics of the basics##
 
 **If you don't know these, you are doomed from the start.**
@@ -103,6 +102,22 @@ Thankfully, math teachers have provided us an easy to remember memonic that you 
 **PEMDAS** -- **P**arenthesis, **E**ponents, **M**ultiplication, **D**ivision, **A**ddition, **S**ubtraction
 
 What that means is when you look at a mathematical formula, you do the calculations in the order PEMDAS tells you. Something in parenthesis? Do that first. Is there an expoennt? Do that next. Muliplication or division? It's next and so forth.  Knowing PEMDAS will save you from stupid mistakes down the road.
+
+#####Spreadsheets#####
+
+Spreadsheets are one of the most basic and useful tools for data analysis. They are the Swiss Army Knife of data analysis. They're immensely useful. But like a Swiss Army Knife, they're useful for a lot of things, but they're never the best tool for that thing. Statistical analysis? Spreadsheets are great for that, but there are statistics software packages that are better. Graphics and visualizations? You can do amazing work in a spreadsheet, but there are visualization packages that are better. Complex queries? It can be done with a spreadsheet, but a database is better. 
+
+But the simple truth is almost all data analysis, and data analysts, begin or end with a spreadsheet. They're the one tool every data nerd has. 
+
+And they're a great place to start.
+
+But before we can get started, you have to understand some basics. If you've never used a spreadsheet before, you'll learn really quickly that spreadsheets organize data into a grid. That grid is made up of Rows and Columns. Rows run left and right, Columns run up and down. The little squares in the grid? They're called Cells. Each cell stores something. What is that something? It can be a header row, telling you what data is in each column. They can store words, numbers, dates, times, dollar figures and several other types of information.
+
+Spreadsheets are also great calculators. But unlike your calculator you used in the past, this one harnesses your computer. To do that, you have to tell your computer that you're computing something. That starts with an equal sign. If your spreadsheet of choice, try this.
+
+`=2+2`
+
+The formula disappeared and you got 4, right? That's how spreadsheets work. It shows you the results of what you did. You can use any of the symbols from above and your spreadsheet will calculate them all.
 
 ##Mean##
 
@@ -140,10 +155,20 @@ Calculating the mean of a set of numbers is a very basic and simple way to measu
 
 #####How to calculate a mean in a spreadsheet#####
 
-
+Data comes from [IPEDS](https://nces.ed.gov/ipeds/datacenter/Default.aspx). 
 
 
 #####How to turn a mean into a story#####
+
+##Minimums and maximums##
+
+#####The basics#####
+
+#####How to calculate a minimum or maximum#####
+
+#####How to calculate a minimum or maximum in a spreadsheet#####
+
+#####How to turn a minimum or maximum into a story#####
 
 ##Median##
 
@@ -174,16 +199,6 @@ Calculating the mean of a set of numbers is a very basic and simple way to measu
 #####How to calculate a percent change in a spreadsheet#####
 
 #####How to turn a percent change into a story#####
-
-##Minimums and maximums##
-
-#####The basics#####
-
-#####How to calculate a minimum or maximum#####
-
-#####How to calculate a minumum or maximum in a spreadsheet#####
-
-#####How to turn a minimum or maxiumum into a story#####
 
 ##Sorting##
 
