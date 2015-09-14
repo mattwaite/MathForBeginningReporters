@@ -1,12 +1,8 @@
-#Math and Data for beginning reporting#
+#Math and Data for Beginning Reporting#
 
 #####Credits#####
 
 This document was started by Matt Waite, professor of practice in the College of Journalism and Mass Communications at the University of Nebraska-Lincoln. 
-
-**Contributors**
-
-    names here
 
 ##Summary##
 
@@ -34,7 +30,7 @@ That's right. A lie. Bad at math is not a thing. And you are not bad at math. Yo
 
 You, like me, struggled with math at some point when your friends didn't. They kept going, you kept struggling, and suddenly they were good at math and you were not. And here you are today.
 
-Except with journalism today, you can't continue to live the lie. You are surrounded by data. You are surrrounded by numbers. If you continue to believe you're bad at math, you will be easy to fool by people who aren't. You'll be unable to see stories that are sitting there in the numbers. 
+Except with journalism today, you can't continue to live the lie. You are surrounded by data. You are surrounded by numbers. If you continue to believe you're bad at math, you will be easy to fool by people who aren't. You'll be unable to see stories that are sitting there in the numbers. 
 
 In short: you won't be a very good journalist.
 
@@ -90,9 +86,6 @@ You might laugh at these, but someone reading them is looking up Gods on Wikiped
 |^|exponent|2^3|
 |sqrt|square root|sqrt(4)|
 
-	Author notes: More? Delta? Sigma? Coming back to this.
-
-
 #####Order of operations#####
 
 One of the most important and often overlooked concepts in basic math is the order that you do the calculations. When you have something like `5+5*5^2`, which gets done first? Or, as you'll read in the next section, what comes first when you calculate the average of a thing? The adding up of all the numbers or the division by the number of numbers?
@@ -105,7 +98,7 @@ What that means is when you look at a mathematical formula, you do the calculati
 
 #####Spreadsheets#####
 
-Spreadsheets are one of the most basic and useful tools for data analysis. They are the Swiss Army Knife of data analysis. They're immensely useful. But like a Swiss Army Knife, they're useful for a lot of things, but they're never the best tool for that thing. Statistical analysis? Spreadsheets are great for that, but there are statistics software packages that are better. Graphics and visualizations? You can do amazing work in a spreadsheet, but there are visualization packages that are better. Complex queries? It can be done with a spreadsheet, but a database is better. 
+Spreadsheets are one of the most basic tools for data analysis. They are the Swiss Army Knife of data analysis. They're immensely useful. But like a Swiss Army Knife, they're useful for a lot of things, but they're never the best tool for that thing. Statistical analysis? Spreadsheets are great for that, but there are statistics software packages that are better. Graphics and visualizations? You can do amazing work in a spreadsheet, but there are visualization packages that are better. Complex queries? It can be done with a spreadsheet, but a database is better. 
 
 But the simple truth is almost all data analysis, and data analysts, begin or end with a spreadsheet. They're the one tool every data nerd has. 
 
@@ -131,9 +124,9 @@ Knowing when to use average and when to use median takes a little bit of thinkin
 
 Let's pretend for a second that I'm taking a poll of a college class of 5 students on how much everyone makes per year. It's full of students, so the annual salaries are $8,000, $9,500, $7,200, $10,000 and $6,400. That makes the average annual income of these five students $8,220 (we'll talk about how to calculate the average in the next section). In our group of five students, given their incomes, $8,220 is pretty much in the middle. A student might make a little more, or a little less, but $8,220 is in the ballpark.
 
-But I teach at the University of Nebraska. And we love us some football. And surprise! Head Coach Bo Pelini visits class. He makes $2.875 million. Per year. 
+But I teach at the University of Nebraska. And we love us some football. And surprise! Head Coach Mike Riley visits class. He makes $2.7 million. Per year. 
 
-The average salary now? $486,016. And 67 cents. Who feels average now?
+The average salary now? $456,850. Who feels average now?
 
 (This problem gets solved in a later section)
 
@@ -224,15 +217,36 @@ So the first question that jumps out at you should be a very simple one: Why?
 
 Congratulations. You got your first story idea from data. But is eyeballing it the best way to look at this? Nope.
 
-##Minimums, maximums and sorting##
+##Minimums, maximums, sorting and ranking##
 
 #####The basics#####
 
-#####How to calculate a minimum or maximum#####
+Often, when we're comparing things, we need to know what the highest and lowest numbers in our data set are. And, often it helps to put those in order from highest to lowest or lowest to highest. Doing that, we're often aiming toward a ranking of our numbers. When you have just a handful of numbers, any of these things can be done by hand with no real trouble. But spreadsheets give us the power to do this over thousands of data points. But before we do thousands, lets walk through a small set of examples.
+
+#####How to calculate a minimum, maximum, sort and rank#####
+
+You do not want to do this by hand, especially if the list of numbers is longer than just a few. You can manually move them around, scan the list for the largest and smallest numbers, but if the list is very long, this is extremely error prone. 
 
 #####How to calculate a minimum or maximum in a spreadsheet#####
 
+In both Excel and Google Spreadsheets, there is a function for both minimum and maximum. They aren't hard to remember. `=MIN(FirstCellInRange:LastCellInRange)` and `=MAX(FirstCellInRange:LastCellInRange)` where the FirstCellInRange and LastCellInRange are a cell reference, like A2:A50 or whatever your data requires. 
+
 #####How to turn a minimum or maximum into a story#####
+
+Minimums and maximums, by themselves, are rarely interesting. We need to know what they're attached to in order for them to be interesting. To do that, it's better that we sort the data in Ascending or Descending order. Sorted in Ascending order, the smallest number is at the top, the biggest at the bottom. With Descending order, it's vice versa. 
+
+First things first: In either Google or Excel, click on the keystone. That's the blank rectangle above row A and left of column 1 in the upper left corner of your spreadsheet. By doing that, you'll select everything. Then in both spreadsheet platforms, sorting is found under Data. In Excel, it's under sort. In Google, it's sort range.
+
+|In Excel|In Google Spreadsheets|
+|--------|----------------------|
+|![Sort screenshot 1 in Excel](images/excelsort1.png "Excel sort 1")|![Sort screenshot 1 in Google Spreadsheets](images/googlesort1.png "Google sort 1")|
+|![Sort screenshot 2 in Excel](images/excelsort2.png "Excel sort 2")|![Sort screenshot 2 in Google Spreadsheets](images/googlesort2.png "Google sort 2")|
+
+For our example, select the Graduation Rate column and then select smallest to largest (or A-Z in Google). In both platforms, make sure that the header row check box is checked -- your data does have a header row, and it would be a pity to sort it into your data when you hit OK or sort. Which you should do. 
+
+And when you sort by lowest graduation rate, what comes up? Uh oh. The Harvard of the Plains doesn't look so good. 
+
+Now it would be time for you to go ask the most basic of all reporter questions: Why?
 
 ##Median##
 
@@ -258,11 +272,51 @@ Congratulations. You got your first story idea from data. But is eyeballing it t
 
 #####The basics#####
 
+Calculating percent change is where newsrooms divide the Math Capable from Everyone Else. In some newsrooms, if you can calculate percent change, you are seen as some kind of magician, a conjurer of dark arts not to be understood by mere mortals. 
+
+It's pathetic.
+
+Calculating percent change is easy if you can remember this simple formula: `New minus old divided by old` or, more mathematically `(New-Old)/Old`
+
+That's it. Take your new number, from this year say, subtract last years figure from it, and then divide by last years figure. If it's a positive number, the number grew year over year. If it's negative, it shrunk year over year. And what comes out will be a small number that you'll need to multiply by 100 to get the percentage. 
+
 #####How to calculate a percent change#####
+
+Let's take a fictional professor in your university. This professor this year makes $66,000 a year. Last year, the professor made $65,000 a year. What is the percentage change in the professor's salary? 
+
+Remember the formula?
+
+`(New-Old)/Old` or `(66000-65000)/65000` is .0153846 or 1.5 percent (take that small number and multiply by 100 to get the percentage).
 
 #####How to calculate a percent change in a spreadsheet#####
 
+Percent changes are extremely common in spreadsheets and data journalism. And this is where they shine. For both Google and Excel, the formula is the same. 
+
+Let's try a new dataset. This one is called population.csv and it is the estimated population of every county in the US. This is a dataset released every year by the U.S. Census Bureau, and it's the best guess they have on how many people live in a county between the every 10 year census that counts everyone. It's also a great way to see if your county is growing or not, and how fast in relation to others in the state or country. 
+
+Open the file in your spreadsheet software -- File/Open in Excel, File/Import in Google -- and take a look. It's pretty simple. The first thing we're going to do is create a new header at the end of the filled columns. Click on the first empty box in row one, next to POPESTIMATE14 and type Change.
+
+Now, in the box below, and remembering that all spreadsheet formulas start with an equal sign, we're going to enter our percent change formula. In this case, it's:
+
+`=(G2-C2)/C2`
+
+|In Excel|In Google Spreadsheets|
+|--------|----------------------|
+|![Change screenshot 1 in Excel](images/excelchange1.png "Excel change 1")|![Change screenshot 1 in Google Spreadsheets](images/googlechange1.png "Google sort 1")|
+
+When you hit enter, you'll have the percent change in population for Autauga County, Alabama. 
+
+Great. But where's that? Do I have to type this formula another 3,400 times to get them all?
+
+Nope.
+
+Click back on the cell that has the percent change you just calculated in it. See the small black square on the bottom right corner of you box? Double click that.
+
+And just like that, you've calculated the percent change in population in every county in the United States. 
+
 #####How to turn a percent change into a story#####
+
+Percent changes by themselves are rarely interesting, but what happens if we add a sort to this? Remember, we can sort two ways. What stories pop out when you sort for the fastest shrinking counties first? What happens when you sort for fastest growing?
 
 
 ##Probability##
