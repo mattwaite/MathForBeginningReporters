@@ -1,6 +1,6 @@
 #Math and Data for Beginning Reporting#
 
-#####Credits#####
+####Credits####
 
 This document was started by Matt Waite, professor of practice in the College of Journalism and Mass Communications at the University of Nebraska-Lincoln. 
 
