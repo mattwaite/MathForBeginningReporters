@@ -334,15 +334,17 @@ Percent changes are extremely common in spreadsheets and data journalism. And th
 
 Let's try a new dataset. This one is called population.csv -- [download it here](https://www.dropbox.com/s/nqs144kwpaxcc2q/population.csv?dl=0) -- and it is the estimated population of every county in the US. This is a dataset released every year by the U.S. Census Bureau, and it's the best guess they have on how many people live in a county between the every 10 year census that counts everyone. It's also a great way to see if your county is growing or not, and how fast in relation to others in the state or country. 
 
-Open the file in your spreadsheet software -- File/Open in Excel, File/Import in Google -- and take a look. It's pretty simple. The first thing we're going to do is create a new header at the end of the filled columns. Click on the first empty box in row one, next to POPESTIMATE14 and type Change.
+Open the file in your spreadsheet software -- File/Open in Excel, File/Import in Google -- and take a look. It's pretty simple. The first thing we're going to do is create a new header at the end of the filled columns. Click on the first empty box in row one, next to POPESTIMATE15 and type Change.
 
 Now, in the box below, and remembering that all spreadsheet formulas start with an equal sign, we're going to enter our percent change formula. In this case, it's:
 
-`=(G2-C2)/C2`
+`=(J2-E2)/E2`
 
 |In Excel|In Google Spreadsheets|
 |--------|----------------------|
 |![Change screenshot 1 in Excel](images/excelchange1.png "Excel change 1")|![Change screenshot 1 in Google Spreadsheets](images/googlechange1.png "Google sort 1")|
+
+**NOTE: The screenshots are from a previous iteration and have not been updated yet. The formula above is correct. The screenshots here are for visual reference.**
 
 When you hit enter, you'll have the percent change in population for Autauga County, Alabama. 
 
