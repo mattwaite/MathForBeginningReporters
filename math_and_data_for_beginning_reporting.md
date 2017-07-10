@@ -256,7 +256,7 @@ Now it would be time for you to go ask the most basic of all reporter questions:
 
 One last thing: Sometimes a sort just isn't enough. Editors love ranks. They love a good top X list. Spreadsheets will calculate ranks for you easily. And it's the same regardless of platform. It looks like this:
 
-``=RANK(TheCellYouWantToRank,TheFirstCellInTheRange:TheLastCellInTheRange)` where `TheCellYouWantToRank` is, well, probably the row you're on. `TheFirstCellInTheRange` and `TheLastCellInTheRange` are what they say they are, the first and last cells in the column you want to rank against. So what the RANK function says is "Take this cell and rank it against all the values in this range." When you copy it down, it'll just do the next one, and the next, and the next. When you have 14 records, this isn't interesting. When you have thousands, and you're interested in some in the middle instead of the top and bottom, ranks are extremely interesting.
+`=RANK(TheCellYouWantToRank,TheFirstCellInTheRange:TheLastCellInTheRange)` where `TheCellYouWantToRank` is, well, probably the row you're on. `TheFirstCellInTheRange` and `TheLastCellInTheRange` are what they say they are, the first and last cells in the column you want to rank against. So what the RANK function says is "Take this cell and rank it against all the values in this range." When you copy it down, it'll just do the next one, and the next, and the next. When you have 14 records, this isn't interesting. When you have thousands, and you're interested in some in the middle instead of the top and bottom, ranks are extremely interesting.
 
 ## Median
 
