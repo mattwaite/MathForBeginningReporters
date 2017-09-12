@@ -16,7 +16,7 @@ This module is designed to solve a particular problem: How do you get basic data
 
 Contained in this repository are the datasets used to illustrate the concepts. They are kept here in .csv format, so you can use Excel or Google Spreadsheets to do the same analysis. The spreadsheet formulas and concepts will work on any of those three software platforms.
 
-> ###Where to get data for these exercises###
+> ### Where to get data for these exercises
 
 > All of the data for this set of exercises is [in a Dropbox folder](https://www.dropbox.com/sh/pj1xukyrvi6v688/AAC-Yzprr1JUgS2Pd37HY15ua?dl=0). It is public data. You are free to use it as you want.
 
@@ -256,7 +256,7 @@ Now it would be time for you to go ask the most basic of all reporter questions:
 
 One last thing: Sometimes a sort just isn't enough. Editors love ranks. They love a good top X list. Spreadsheets will calculate ranks for you easily. And it's the same regardless of platform. It looks like this:
 
-`=RANK(TheCellYouWantToRank,TheFirstCellInTheRange:TheLastCellInTheRange)` where TheCellYouWantToRank is, well,  probably the row you're on. TheFirstCellInTheRange and TheLastCellInTheRange are what they say they are, the first and last cells in the column you want to rank against. So what the RANK function says is "Take this cell and rank it against all the values in this range." When you copy it down, it'll just do the next one, and the next, and the next. When you have 14 records, this isn't interesting. When you have thousands, and you're interested in some in the middle instead of the top and bottom, ranks are extremely interesting.
+`=RANK(TheCellYouWantToRank,TheFirstCellInTheRange:TheLastCellInTheRange)` where `TheCellYouWantToRank` is, well, probably the row you're on. `TheFirstCellInTheRange` and `TheLastCellInTheRange` are what they say they are, the first and last cells in the column you want to rank against. So what the RANK function says is "Take this cell and rank it against all the values in this range." When you copy it down, it'll just do the next one, and the next, and the next. When you have 14 records, this isn't interesting. When you have thousands, and you're interested in some in the middle instead of the top and bottom, ranks are extremely interesting.
 
 ## Median
 
