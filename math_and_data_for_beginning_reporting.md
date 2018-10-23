@@ -278,7 +278,7 @@ So, with our college cost spreadsheet still open, let's compare the Average to t
 
 ##### How to turn a median into a story
 
-In 2004, at the dawn of what would become a disasterous real-estate bubble, I was working at a newspaper in Florida, which was one of the key states in the whole mess. But at the time, people were just astonished at how fast homes were selling and for how much. So I set out to quantify it. And what we found was that neighborhood after neighborhood, street by street, the entire area was being transformed by skyrocketing home prices. The entire story was built on medians. I used geographic information systems -- maps -- to calculate the median sale prices of a home in a neighborhood in a given year and then I calculated the same median home price in the current year, and did a percent change calculation. [The project is still online](http://www.sptimes.com/2004/webspecials04/homeprices/).
+In 2004, at the dawn of what would become a economy-killing real estate bubble, I was working at a newspaper in Florida, which was one of the key states in the whole mess. But at the time, people were just astonished at how fast homes were selling and for how much. So I set out to quantify it. And what we found was that neighborhood after neighborhood, street by street, the entire area was being transformed by skyrocketing home prices. The entire story was built on medians. I used geographic information systems -- maps -- to calculate the median sale prices of a home in a neighborhood in a given year and then I calculated the same median home price in the current year, and did a percent change calculation.
 
 ## Percentages of a whole
 
@@ -288,25 +288,23 @@ Percentages of a whole are a very basic measure of just how much of the whole a 
 
 ##### How to calculate a percentage
 
-Let's look at crime. Murder in the United States gets a huge amount of the attention in the Media (writ large: How many cop/crime scene shows are there?). So how much of the whole does murder represent? The only real way to look at crime on a national level is to use the FBI's Uniform Crime Reports. It isn't perfect -- and the flaws are beyond the scope of this document -- but it's the only national dataset of crime by jurisdiction that we have. It measures 8 categories of crimes: Murder, Rape, Robbery, Aggravated Assault, Larceny, Burglary, Motor Vehicle Theft and Arson.
+Let's look at the students in colleges at the University of Nebraska-Lincoln. Every year, the university performs a census of students across campus shortly after classes start. That census produces tons of data, but one of the most interesting is the students by degree, major, race and sex. 
 
-In this UCR dataset I've provided, there is every local jurisdiction reporting to the FBI, their population in 2014, the total number of violent crimes and the total number of murders reported.
-
-Let's look at New York City. In 2014, New York City reported 333 murders and 50,544 violent crimes. To get what percentage of violent crimes murder represents in New York City you take 333 and divide it by 50,544. You'll get a really small number: .00659 or so. That's a decimal. To make it a percentage, we have to multiply it by 100 or just move the decimal point two places to the right. You still get a really small number: .6 percent. That's right. Murder in New York, home of half the cop shows on television, represents less than 1 percent of all violent crimes.  
+There are scores of stories in the overall data broken down to each major, but for simplicity, let's look at the colleges. More specifically, let's ask this question: Which college has the greatest gender imbalance?
 
 ##### How to calculate a percentage in a spreadsheet
 
-But does anywhere stand out? Lets's calculate it in a spreadsheet and find out. In the dataset, there's 9,347 jurisdictions. To make things easier, I've removed everywhere that didn't report any murders. I'm delighted to report that cuts the number of places that reported murders to 1,777 (or, if you're curious, that's 19 percent of all police jurisdictions in the US reported 1 or more murders).
+In the dataset, there's 10 colleges -- 9 actual colleges and one called Explore Center, which are how undeclared students are grouped together. It's included because it's larger than three colleges. 
 
-Open the file -- [you can download it here](https://www.dropbox.com/s/vvyplhzkd5ykbga/murders.csv?dl=0) -- and in Column F, Row 1, let's add a new header called Percentage.
+Open the file -- [you can download it here](https://www.dropbox.com/s/ilk87n6ug1l7v53/students.csv?dl=0) -- and in Column W, Row 1, let's add a new header called Percentage Male.
 
-Then, in Column F Row 2, let's calculate our percentage. So we want to take the subset (murders in this case) and divide it by the total (violent crimes). So our formula will look like this: `=E2/D2`
+Then, in Column F Row 2, let's calculate our percentage. So we want to take the subset (male students in this case) and divide it by the total (the column labeled Total). So our formula will look like this: `=U2/T2`
 
 Really, that's it. Copy the formula down by double clicking on the notch on the bottom left of the cell. Now sort it largest to smallest (descending order). What do you get?
 
 ##### How to turn a percentage into a story
 
-Percents of a whole end up in stories all over the place. In the case of our murder data here, I'd want to know about all those small towns that reported only one violent crime, and it was a murder. So there was no other violent crime in the town for a whole year? Not one person got in a bar fight? No one hit a family member? Nothing? Really? That doesn't pass the smell test.
+Percents of a whole end up in stories all over the place. In the case of our student data here, I'd want to know why. Why does one college have far more men than women, or vice versa? What attempts are there to recruit women into male dominated fields? What efforts are there to recruit men into female dominated fields? What's driving this? And (looking to the topic of the next section) how has this changed over time?
 
 ## Percent change
 
@@ -322,7 +320,7 @@ That's it. Take your new number, from this year say, subtract last years figure 
 
 ##### How to calculate a percent change
 
-Let's take a fictional professor in your university. This professor this year makes $66,000 a year. Last year, the professor made $65,000 a year. What is the percentage change in the professor's salary?
+Let's take a fictional professor in your university. This professor this year makes \$66,000 a year. Last year, the professor made \$65,000 a year. What is the percentage change in the professor's salary?
 
 Remember the formula?
 
@@ -334,9 +332,9 @@ Percent changes are extremely common in spreadsheets and data journalism. And th
 
 Let's try a new dataset. This one is called population.csv -- [download it here](https://www.dropbox.com/s/nqs144kwpaxcc2q/population.csv?dl=0) -- and it is the estimated population of every county in the US. This is a dataset released every year by the U.S. Census Bureau, and it's the best guess they have on how many people live in a county between the every 10 year census that counts everyone. It's also a great way to see if your county is growing or not, and how fast in relation to others in the state or country.
 
-Open the file in your spreadsheet software -- File/Open in Excel, File/Import in Google -- and take a look. It's pretty simple. The first thing we're going to do is create a new header at the end of the filled columns. Click on the first empty box in row one, next to POPESTIMATE15 and type Change.
+Open the file in your spreadsheet software -- File/Open in Excel, File/Import in Google -- and take a look. It's pretty simple. The first thing we're going to do is create a new header at the end of the filled columns. Click on the first empty box in row one and type `Change`.
 
-Now, in the box below, and remembering that all spreadsheet formulas start with an equal sign, we're going to enter our percent change formula. In this case, it's:
+Now, in the box below, and remembering that all spreadsheet formulas start with an equal sign, we're going to enter our percent change formula. An example would be:
 
 `=(J2-E2)/E2`
 
@@ -344,7 +342,7 @@ Now, in the box below, and remembering that all spreadsheet formulas start with 
 |--------|----------------------|
 |![Change screenshot 1 in Excel](images/excelchange1.png "Excel change 1")|![Change screenshot 1 in Google Spreadsheets](images/googlechange1.png "Google sort 1")|
 
-**NOTE: The screenshots are from a previous iteration and have not been updated yet. The formula above is correct. The screenshots here are for visual reference.**
+**NOTE: The screenshots are from a previous iteration and have not been updated yet. The formula above is correct, but uses older cell references. The screenshots here are for visual reference.**
 
 When you hit enter, you'll have the percent change in population for Autauga County, Alabama.
 
