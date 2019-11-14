@@ -1,4 +1,4 @@
-#Math for Beginning Reporters#
+# Math for Beginning Reporters
 
 This module is designed to solve a particular problem: How do you get basic data journalism into a beginning reporting class that many feel is packed as it is? My answer is to combine the basic math for reporters with instructions on how to apply those concepts in a spreadsheet using real data, all aimed at generating real story ideas. This document will show: 
 
