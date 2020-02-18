@@ -18,7 +18,7 @@ Contained in this repository are the datasets used to illustrate the concepts. T
 
 > ### Where to get data for these exercises
 
-> All of the data for this set of exercises is [in a Dropbox folder](https://www.dropbox.com/sh/pj1xukyrvi6v688/AAC-Yzprr1JUgS2Pd37HY15ua?dl=0). It is public data. You are free to use it as you want.
+> All of the data for this set of exercises is [in a Box folder](https://unl.box.com/s/y9w4y8x79649wofnp7g13oavnjtxmfic). It is public data. You are free to use it as you want.
 
 
 
@@ -130,9 +130,9 @@ Knowing when to use average and when to use median takes a little bit of thinkin
 
 Let's pretend for a second that I'm taking a poll of a college class of 5 students on how much everyone makes per year. It's full of students, so the annual salaries are $8,000, $9,500, $7,200, $10,000 and $6,400. That makes the average annual income of these five students $8,220 (we'll talk about how to calculate the average in the next section). In our group of five students, given their incomes, $8,220 is pretty much in the middle. A student might make a little more, or a little less, but $8,220 is in the ballpark.
 
-But I teach at the University of Nebraska. And we love us some football. And surprise! Head Coach Mike Riley visits class. He makes $2.7 million. Per year.
+But I teach at the University of Nebraska. And we love us some football. And surprise! Head Coach Scott Frost visits class. He makes $5 million. Per year.
 
-The average salary now? $456,850. Who feels average now?
+The average salary now? $840,183. Who feels average now?
 
 (This problem gets solved in a later section)
 
@@ -188,7 +188,7 @@ And, when we hit enter, we get our answer: $8,220.
 
 One of the main uses for an average is to compare how something fares against the middle. Is it above average or below average? And how much?
 
-One thing you might want to do is compare your university's graduation rate compared to other schools like yours. For this example, [I've provided a CSV file of schools in the Big 10 athletic conference](https://www.dropbox.com/s/1pcft4ib0hq8mlx/colleges.csv?dl=0) that you should download (math alert: has 14 schools in it). If you'd like to get your own athletic conference, this data comes from the US federal Department of Educations [IPEDS](https://nces.ed.gov/ipeds/datacenter/Default.aspx) database.
+One thing you might want to do is compare your university's graduation rate compared to other schools like yours. For this example, [I've provided a CSV file of schools in the Big 10 athletic conference](https://unl.box.com/s/hvbmt0t0oom6sjgax1e4w8kcggsssz0m) that you should download (math alert: has 14 schools in it). If you'd like to get your own athletic conference, this data comes from the US federal Department of Educations [IPEDS](https://nces.ed.gov/ipeds/datacenter/Default.aspx) database.
 
 Question: What is the average graduation rate among Big 10 schools?
 
@@ -296,7 +296,7 @@ There are scores of stories in the overall data broken down to each major, but f
 
 In the dataset, there's 10 colleges -- 9 actual colleges and one called Explore Center, which are how undeclared students are grouped together. It's included because it's larger than three colleges. 
 
-Open the file -- [you can download it here](https://www.dropbox.com/s/ilk87n6ug1l7v53/students.csv?dl=0) -- and in Column W, Row 1, let's add a new header called Percentage Male.
+Open the file -- [you can download it here](https://unl.box.com/s/8ci3u5kruni3mauuiculwrmr6lxllb6d) -- and in Column W, Row 1, let's add a new header called Percentage Male.
 
 Then, in Column F Row 2, let's calculate our percentage. So we want to take the subset (male students in this case) and divide it by the total (the column labeled Total). So our formula will look like this: `=U2/T2`
 
@@ -330,7 +330,7 @@ Remember the formula?
 
 Percent changes are extremely common in spreadsheets and data journalism. And this is where they shine. For both Google and Excel, the formula is the same.
 
-Let's try a new dataset. This one is called population.csv -- [download it here](https://www.dropbox.com/s/nqs144kwpaxcc2q/population.csv?dl=0) -- and it is the estimated population of every county in the US. This is a dataset released every year by the U.S. Census Bureau, and it's the best guess they have on how many people live in a county between the every 10 year census that counts everyone. It's also a great way to see if your county is growing or not, and how fast in relation to others in the state or country.
+Let's try a new dataset. This one is called population.csv -- [download it here](https://unl.box.com/s/4k6jjvx26xpalc3e8bnjbrsx84085nan) -- and it is the estimated population of every county in the US. This is a dataset released every year by the U.S. Census Bureau, and it's the best guess they have on how many people live in a county between the every 10 year census that counts everyone. It's also a great way to see if your county is growing or not, and how fast in relation to others in the state or country.
 
 Open the file in your spreadsheet software -- File/Open in Excel, File/Import in Google -- and take a look. It's pretty simple. The first thing we're going to do is create a new header at the end of the filled columns. Click on the first empty box in row one and type `Change`.
 
